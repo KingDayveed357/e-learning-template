@@ -12,8 +12,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'customFont': ['Be Vietnam Pro'] // Fixed font family definition
+      },
     },
   },
   plugins: [],
 };
+
 export default config;

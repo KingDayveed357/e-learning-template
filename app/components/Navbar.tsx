@@ -5,16 +5,18 @@ import Image from 'next/image'
 export default function Navbar () {
   return (
     <>
-    
-    <div className="mx-auto  max-w-screen-xl flex justify-between">
-      <div className="mx-2 flex my-5">
-        <div className="p-3">
-        <Image
+    <div className="my-4 p-2 orange max-w-[1450px] rounded-md flex justify-center items-center mx-auto">
+    <p className="orange text-white">Free Courses 🌟 Sale Ends Soon, Get it Now → </p>
+    </div>
+    <header className="mx-auto  max-w-screen-xl flex justify-between">
+      <div className="gap-5 flex mb-5">
+        <div className="p-2">
+      <Image
       src={logo}
-      className="w-7 h-7 p-1 bg-yellow-400 rounded-md "
+      className="w-8 h-8 p-1 bg-[#FF9500] rounded-md"
       alt="Logo"
     />
-        </div>
+      </div>
       
       <nav className="flex gap-5">
       <div className="">
@@ -43,7 +45,7 @@ export default function Navbar () {
      <button>Sign Up</button>
      <button className="py-1 px-7 text-white rounded-md bg-[#FF9500] h-10"> Login </button>
       </div>
-    </div>
+    </header>
     </>
   )
 }

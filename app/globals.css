@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    background-color: #F7F7F8;
+}
+
+.orange{
+    @apply bg-[#FF9500] ;
+}
+
+.container{
+    @apply mx-auto max-w-screen-xl py-12
+}
+
+.orange-text{
+    @apply text-[#FF9500] ;
+}
